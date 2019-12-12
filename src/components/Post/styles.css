@@ -1,0 +1,44 @@
+div.post {
+  width: 100%;
+  min-height: 280px;
+
+  background: #FFF;
+  margin: 20px 0;
+  border-radius: 3px;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.12);
+  padding: 0 30px;
+}
+
+div.post-description {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+div.post-description div.post-header {
+  display: flex;
+}
+
+div.post-description div.post-header img {
+  border-radius: 25px;
+  margin: 0 15px 0 0;
+}
+
+div.post-description div.post-header div.post-title {
+  margin-top: 3.5px;
+}
+
+div.post-description div.post-header div.post-title h4 {
+  color: #4a4a4a;
+}
+
+div.post-description div.post-header div.post-title h5 {
+  margin-top: 2px;
+  color: #bdbdbd;
+}
+
+div.post-description div.post-message {
+  margin: 20px 0 8px 0;
+}

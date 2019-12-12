@@ -1,0 +1,25 @@
+div.post-comment {
+  padding: 10px 0 10px 10px;
+  font-size: 13px;
+
+  display: flex;
+  flex-direction: row;
+
+  line-height: 19px;
+}
+
+div.post-comment > div {
+  margin-right: 15px;
+}
+
+div.post-comment div img {
+  width: 35px;
+  height: 35px;
+  border-radius: 25px;
+}
+
+div.comment-description {
+  background: #e8e8e8;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+}

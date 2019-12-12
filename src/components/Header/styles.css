@@ -1,0 +1,41 @@
+header {
+  width: 100%;
+  height: 64px;
+  background: #4A90E2;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+div#logo-facebook {
+  padding: 18px 40px;
+}
+
+div#logo-facebook svg {
+  cursor: pointer;
+}
+
+div#profile {
+  display: flex;
+  align-items: center;
+  
+  color: #FFF;
+  padding: 18px 40px;
+}
+
+div#profile h4 {
+  margin: 0 10px;
+  
+  cursor: pointer;
+}
+
+div#profile button#btn-profile {
+  width: 20px;
+  height: 20px;
+  
+  cursor: pointer;
+
+  background: #FFF;
+  border: 0;
+  border-radius: 15px;
+}
